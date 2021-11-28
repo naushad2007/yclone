@@ -11,7 +11,7 @@ import gIcon from "../images/google.svg";
 
 // your client id will be here
 const clientId =
-  "473949130661-sft6bhlrdl8sqlev3t6h8mq05prlkcoq.apps.googleusercontent.com";
+  "";
 
 const gapi = window.gapi;
 // get the gapi from window
@@ -60,7 +60,7 @@ const GoogleSignIn = () => {
   }, []);
 
   function loadClient() {
-    gapi.client.setApiKey("AIzaSyCpZYZSlo0SECNPPOSsCNUYYlA0AKB67wQ");
+    gapi.client.setApiKey("");
     return gapi.client
       .load("https://www.googleapis.com/discovery/v1/apis/youtube/v3/rest")
       .then(
