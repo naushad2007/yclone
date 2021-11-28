@@ -11,7 +11,7 @@ import gIcon from "../images/google.svg";
 
 // your client id will be here
 const clientId =
-  "367279527036-u1jsag8ol4djckc0r9s3lu14jf096eei.apps.googleusercontent.com";
+  "473949130661-sft6bhlrdl8sqlev3t6h8mq05prlkcoq.apps.googleusercontent.com";
 
 const gapi = window.gapi;
 // get the gapi from window
@@ -60,7 +60,7 @@ const GoogleSignIn = () => {
   }, []);
 
   function loadClient() {
-    gapi.client.setApiKey("AIzaSyBvt3FKkCTs05Lo0RMfYS6DCBHJELJn7_Q");
+    gapi.client.setApiKey("AIzaSyCpZYZSlo0SECNPPOSsCNUYYlA0AKB67wQ");
     return gapi.client
       .load("https://www.googleapis.com/discovery/v1/apis/youtube/v3/rest")
       .then(
